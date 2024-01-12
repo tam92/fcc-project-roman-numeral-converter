@@ -21,6 +21,8 @@ const conversionData = {
 convertBtn.addEventListener("click", convertToNumeral);
 
 function convertToNumeral() {
+    
+    output.style.display = "flex";
 	let numeral = parseInt(input.value);
 	let roman = "";
 	if (!numeral) {
